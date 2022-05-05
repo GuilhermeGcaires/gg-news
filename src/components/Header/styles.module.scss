@@ -1,3 +1,7 @@
+.headerLogo {
+    font-size: 32px;
+    font-weight: 600;
+}
 .headerContainer {
     height: 5rem;
     border-bottom: 1px solid var(--gray-800)
@@ -36,7 +40,7 @@
                 font-weight: bold;
             }
 
-            &:active::after {
+            &.active::after {
                 content: '';
                 height: 3px;
                 border-radius: 3px 3px 0 0;
