@@ -1,14 +1,24 @@
 import { SignInButton } from '../SignInButton';
+import Link from 'next/link';
 import styles from './styles.module.scss';
+import { useRouter } from 'next/router';
+import { ActiveLink } from '../ActiveLink';
 
 export function Header() {
+
     return (
         <header className={styles.headerContainer}>
             <div className={styles.headerContent}>
-                <a className={styles.headerLogo} href="">gg.news</a>
+                <Link href="/">
+                  <a className={styles.headerLogo}>gg.news</a>
+                </Link>
             <nav>
-                <a className={styles.active}href="">Home</a>
-                <a href="">Posts</a>
+                <ActiveLink activeClassName={styles.active} href="/">
+                  <a>Home</a>
+                </ActiveLink>
+                <ActiveLink activeClassName={styles.active} href="/posts">
+                  <a>Posts</a>
+                </ActiveLink>
             </nav>
             <SignInButton />
             </div>
