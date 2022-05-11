@@ -48,6 +48,7 @@ export default NextAuth({
                     ])
                 )
             )
+            console.log(userActiveSubscription)
 
             return {
                 ...session,
