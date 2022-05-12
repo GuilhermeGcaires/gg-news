@@ -26,7 +26,6 @@
 - [FaunaDB](https://fauna.com/)
 - [Prismic CMS](https://prismic.io/)
 
-##Configs
 
 ### Cloning project
 
