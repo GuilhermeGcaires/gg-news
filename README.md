@@ -26,9 +26,9 @@
 - [FaunaDB](https://fauna.com/)
 - [Prismic CMS](https://prismic.io/)
 
-  ##Configs
+##Configs
 
- ### Cloning project
+### Cloning project
 
 ```bash
 $ git clone https://github.com/GuilhermeGcaires/gg-news.git
