@@ -35,7 +35,7 @@ $ git clone https://github.com/GuilhermeGcaires/gg-news.git
 $ cd gg-news
 ```
 
-*** Starting project
+Starting project
 
 ```bash
   
