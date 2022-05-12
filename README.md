@@ -3,6 +3,7 @@
  </h1>
  
 <p align="center">Project for a paid newsletter with stripe payment gateway</p>
+<p align="center"> Hosted at: https://gg-news.herokuapp.com/ </p>
 
 <p align="center">
   <a href="#about-the-project"> About the project </a> |
