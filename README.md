@@ -25,3 +25,24 @@
 - [Next-Auth](https://next-auth.js.org/)
 - [FaunaDB](https://fauna.com/)
 - [Prismic CMS](https://prismic.io/)
+
+  ##Configs
+
+ ### Cloning project
+
+```bash
+$ git clone https://github.com/GuilhermeGcaires/gg-news.git
+$ cd gg-news
+```
+
+*** Starting project
+
+```bash
+  
+$ yarn
+# Fill enviroment variables at .env.local
+  
+# Run stripe listen for the webhooks
+$ stripe listen --forward-to localhost:3000/api/webhooks 
+
+$ yarn dev
